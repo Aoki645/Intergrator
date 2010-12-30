@@ -24,7 +24,7 @@
         <servlet-class>flex.rds.server.servlet.FrontEndServlet</servlet-class>
 		<init-param>
 			<param-name>useAppserverSecurity</param-name>
-			<param-value>true</param-value>
+			<param-value>false</param-value>
 		</init-param>        
         <load-on-startup>10</load-on-startup>
     </servlet>
