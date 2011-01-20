@@ -52,6 +52,6 @@ public class QueryBuilder {
 		colunas.add("coluna6");
 		String col =	query.columnBuilder(colunas);
 		System.out.println(query.selectBuilder(col, "test3e"));
-		System.out.println(query.insertBuilder(col, "teste"));
+		System.out.println(query.insertBuilder(col, "teste dsfg"));
 	}
 }
